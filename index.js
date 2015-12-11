@@ -17,7 +17,7 @@
         return callback();
       } else if (file.isBuffer()) {
         templateString = jade.compileClient(file.contents.toString(), opt).toString();
-        file.contents = new Buffer('module.exports = ' + templateString);
+        file.contents = new Buffer(templateString);
         file.path = replaceExt(file.path, '.js');
         this.push(file);
         return callback();

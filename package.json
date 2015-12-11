@@ -1,6 +1,6 @@
 {
-  "name": "@mizchi/gulp-react-jade",
-  "version": "1.0.5",
+  "name": "gulp-jade2react",
+  "version": "1.0.6",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,9 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "react": "^0.12.2",
-    "react-jade": "mizchi/react-jade#127588f991009a94c8dab7a0325dc6c05ab6d245",
+    "react": "^0.14.3",
+    "react-jade": "^2.5.0",
     "replace-ext": "0.0.1",
-    "through2": "^0.6.3"
+    "through2": "^0.6.5"
   }
 }
